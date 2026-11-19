@@ -1,13 +1,26 @@
 /* Consigne 1 : Donner à la boîte une largeur de 200 px */
-
 /* Consigne 2 : Ajouter un espace intérieur de 20 px */
-
 /* Consigne 3 : Ajouter une bordure de 5 px, noire et pleine */
-
 /* Consigne 4 : Ajouter un espace extérieur de 30 px */
-
 /* Consigne 5 : Passer la boîte en border-box et observer la différence */
-
 /* Consigne 6 : Arrondir les coins de la boîte */
-
 /* Consigne 7 : Ajouter une ombre portée subtile */
+.boite {
+    width: 400px;
+    padding: 20px;
+    border : 5px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px gray;
+}
+
+.article{
+    border : 5px solid black;
+    width: 400px;
+    margin: 60px 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px gray;
+}
